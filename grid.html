@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+
+    <style type="text/css">
+        .row1{
+           display: grid;
+           grid-template-columns: 1fr 1fr;
+           gap: 20px;
+        }
+
+        .left, .right {
+            border: 2px dashed blue;
+            padding: 20px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="row1">
+        <div class="left">LEFT</div>
+        <div class="right">RIGHT</div>
+    </div>
+    <div class="row2">
+        <div class="footer">FOOTER</div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <style type="text/css">
+            .container{
+                width: 400px;
+                background-color: red;
+            }
+            .row1{
+                display: flex;
+                justify-content: space-around;
+            }
+            .left, .right {
+                border: 2px dashed blue;
+                padding: 20px;
+            }
+            .row2 {
+                border: 2px solid green;
+                padding: 1rem;
+            }
+        </style>
+    </head>
+    <body>
+        <table border="2">
+            <tr>
+                <td>LEFT</td>
+                <td>RIGHT</td>
+            </tr>
+            <tr>
+                <td colspan="2">FOOTER</td>
+            </tr>
+        </table>
+
+        <div class="container">
+            <div class="row1">
+                <div class="left">LEFT</div>
+                <div class="right">RIGHT</div>
+            </div>
+            <div class="row2">FOOTER</div>
+        </div>
+    </body>
+</html>
